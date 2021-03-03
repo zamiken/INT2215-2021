@@ -14,7 +14,7 @@ int main()
     int dem = 0;
 
     //cach A
-    while(sum1 < 100 && sum2 < 100)
+    while(sum1 < 100 || sum2 < 100)
     {
         dem++;
         if(dem % 2 == 1)
@@ -25,7 +25,7 @@ int main()
     }
 
     //cach B
-    while(sum1 < 100 && sum2 < 100)
+    while(sum1 < 100 || sum2 < 100)
     {
         if(sum1 <= sum2)
         {
